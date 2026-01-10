@@ -32,3 +32,17 @@
 	<li><code>1 &lt;= n &lt;= 1000</code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 1000</code></li>
 </ul>
+Array Concatenation Problem - Complete Breakdown
+Problem Purinjikkalam (Understanding)
+Simple-ah sollanumna:
+
+*Oru array irukku: [1,2,3]
+*Athaye rendu thadava pottu pudhu array create pannanum: [1,2,3,1,2,3]
+Avlodhan! 😊
+
+Pattern Recognition
+Ithula irukka main patterns:
+
+Array Creation Pattern - Pudhu array create pannanum
+Index Mapping Pattern - Original array elements ah correct position la place pannanum
+Iteration Pattern - Oru thadava loop podhum, rendu thadava fill pannalam
