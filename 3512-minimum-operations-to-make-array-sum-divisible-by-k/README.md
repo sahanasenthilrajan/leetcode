@@ -59,3 +59,36 @@
 	<li><code>1 &lt;= nums[i] &lt;= 1000</code></li>
 	<li><code>1 &lt;= k &lt;= 100</code></li>
 </ul>
+Maths padi paatha, oru number-a 3 ala divide pannum podhu, namaku 3 vithamana remainders (meedhi) kidaikum: 0, 1, 2.
+
+Adha vachu dhaan pattern irukku:
+
+1.Remainder 0 (num % 3 == 0):
+
+->Example: 3, 6, 9, 12.
+
+->Idhu already 3 ala divide aagudhu.
+
+->So, 0 operations thevai.
+
+2.Remainder 1 (num % 3 == 1):
+
+->Example: 4, 7, 10.
+
+->Ippo 4 eduthuko. Adha 3 aaka -1 panna podhum (1 operation).
+
+->Adhe 6 aaka +2 pannanum (2 operations).
+
+->Minimum operation: 1 (Subtract 1).
+
+3.Remainder 2 (num % 3 == 2):
+
+->Example: 2, 5, 8.
+
+->Ippo 5 eduthuko. Adha 6 aaka +1 panna podhum (1 operation).
+
+->Adhe 3 aaka -2 pannanum (2 operations).
+
+->Minimum operation: 1 (Add 1).
+
+->Logic Conclusion: Oru number 3 ala divide aagala na (remainder 1 or 2 ah irundha), kandippa ore oru operation (+1 or -1) pannale adhu 3 ala divide aagidum.
