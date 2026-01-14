@@ -34,3 +34,4 @@ ans = [nums[nums[0]], nums[nums[1]], nums[nums[2]], nums[nums[3]], nums[nums[4]]
 
 <p>&nbsp;</p>
 <p><strong>Follow-up:</strong> Can you solve it without using an extra space (i.e., <code>O(1)</code> memory)?</p>
+Complexity AnalysisTime Complexity: $O(n)$We iterate through the array exactly once, performing constant-time lookups. $n$ is the number of elements in the array.Space Complexity: $O(n)$We create a new array ans of size $n$ to store the result.
