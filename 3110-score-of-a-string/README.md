@@ -34,3 +34,13 @@
 	<li><code>2 &lt;= s.length &lt;= 100</code></li>
 	<li><code>s</code> consists only of lowercase English letters.</li>
 </ul>
+Tools you need:
+1.Loop: A standard for loop to travel through the string.
+2.Access: s.charAt(i) to get the character at the current position.
+3.Math: Math.abs(value) to ensure the difference is always positive (e.g., $|5 - 10| = 5$).
+Drafting the Algorithm:
+->Initialize a variable score = 0.
+->Start a loop from index i = 0.
+->Crucial Step: Run the loop only while i < s.length() - 1.Why? If the string has length 5 (indices 0 to 4), the last pair starts at index 3 (comparing 3 and 4). --->If you try to start at index 4, you will try to compare it with index 5, which doesn't exist!Inside the loop:Get character at i.Get character at i + 1.
+->Subtract them and get the absolute value.Add to score.
+->Return score.
