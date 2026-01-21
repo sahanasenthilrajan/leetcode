@@ -35,3 +35,6 @@
 	<li><code>-3 * 10<sup>4</sup> &lt;= nums[i] &lt;= 3 * 10<sup>4</sup></code></li>
 	<li>Each element in the array appears twice except for one element which appears only once.</li>
 </ul>
+Complexity Analysis
+Time Complexity: $O(N)$ — We iterate through the array exactly once.
+Space Complexity: $O(1)$ — We only use one variable (ans) to store the result, regardless of the array size.
