@@ -41,3 +41,12 @@ The 2nd customer is the richest with a wealth of 10.</pre>
 	<li><code>1 &lt;= m, n &lt;= 50</code></li>
 	<li><code>1 &lt;= accounts[i][j] &lt;= 100</code></li>
 </ul>
+💡 IntuitionThe problem asks us to find the customer with the maximum total wealth.
+The input is a 2D grid where:Rows represent different customers.
+Columns represent the bank accounts belonging to that customer.
+To solve this, we need to iterate through each customer (row), sum up all their accounts (columns), and keep track of the highest sum encountered.
+This is effectively a "maximum of sums" problem.🚀 ApproachInitialize Max Wealth: Create a variable max initialized to a very small value (or 0) to store the highest wealth found so far.
+Iterate Through Customers: Use an outer loop to traverse through each row of the accounts matrix.Calculate Current Wealth: inside the outer loop:Initialize a rowsum variable to 0.Use an inner loop to traverse the columns (accounts) for the current customer, adding each value to rowsum.Update Maximum: After summing a customer's accounts, compare their rowsum with the current max. If rowsum is greater, update max.Return Result: After checking all customers, return max.⏱️ Complexity Analysis
+Time Complexity: $O(m \times n)$We traverse every element in the grid exactly once, where $m$ is the number of customers (rows) and $n$ is the number of accounts (columns).
+Space Complexity: $O(1)$We only use a few variables (max, rowsum, i, j) for storage, regardless of the input size. No extra data structures are used.
+
