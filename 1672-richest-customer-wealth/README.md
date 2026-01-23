@@ -50,3 +50,10 @@ Iterate Through Customers: Use an outer loop to traverse through each row of the
 Time Complexity: $O(m \times n)$We traverse every element in the grid exactly once, where $m$ is the number of customers (rows) and $n$ is the number of accounts (columns).
 Space Complexity: $O(1)$We only use a few variables (max, rowsum, i, j) for storage, regardless of the input size. No extra data structures are used.
 
+
+
+
+
+
+yt->https://youtu.be/xGztxT4Pwq8?si=MXFwRZhIjH0swGOt
+
