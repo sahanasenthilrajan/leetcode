@@ -42,3 +42,8 @@
 	<li><code>1 &lt;= friends[i] &lt;= n</code></li>
 	<li><code>friends</code> is strictly increasing</li>
 </ul>
+
+
+
+
+The Problem with ans[j] = order[i]In your code, because friends is sorted (e.g., [10, 20, 30]), you are placing the IDs into ans based on their numerical value, not their finishing time.Example:order (Finishing order): [30, 10, 20]friends: [10, 20, 30]Your code result: ans[0]=10, ans[1]=20, ans[2]=30 $\rightarrow$ [10, 20, 30]Expected result: [30, 10, 20] (because 30 finished first).To fix this, you need a separate counter (like k) that increments only when you find a friend, ensuring they are saved in the order they appear in the order array.
