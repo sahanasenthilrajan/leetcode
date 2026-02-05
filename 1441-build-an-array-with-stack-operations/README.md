@@ -64,3 +64,17 @@ The answers that read integer 3 from the stream are not accepted.
 	<li><code>1 &lt;= target[i] &lt;= n</code></li>
 	<li><code>target</code> is strictly increasing.</li>
 </ul>
+<details>
+<summary><b>LeetCode #1441 - Build an Array With Stack Operations</b></summary>
+
+### 💡 Logic
+Simulate the stream from <code>1</code> to <code>n</code>. For every number in the stream:
+1. Always <b>Push</b>.
+2. If the number is NOT in the <code>target</code>, immediately <b>Pop</b>.
+3. Stop as soon as the <code>target</code> array is fully built.
+
+### 📈 Complexity
+- <b>Time:</b> <code>O(target[last])</code>
+- <b>Space:</b> <code>O(1)</code> (auxiliary)
+
+</details>
