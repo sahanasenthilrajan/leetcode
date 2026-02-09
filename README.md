@@ -2,6 +2,7 @@
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Array
+##String
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/sahanasenthilrajan/leetcode/tree/master/0001-two-sum) |
