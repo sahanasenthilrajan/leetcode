@@ -1,6 +1,6 @@
 # My leetcode journey
 <!---LeetCode Topics Start-->
-# LeetCode Topics
+# LeetCode 
 ## Array
 ##String
 |  |
