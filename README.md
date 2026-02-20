@@ -2,6 +2,7 @@
 <!---LeetCode Topics Start-->
 # LeetCode topics
 ## Array
+## string
 
 |  |
 | ------- |
