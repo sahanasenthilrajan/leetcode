@@ -23,3 +23,4 @@
 	<li><code>1 &lt;= nums1.length, nums2.length &lt;= 1000</code></li>
 	<li><code>0 &lt;= nums1[i], nums2[i] &lt;= 1000</code></li>
 </ul>
+reference:https://youtu.be/He9kBIZJd40?si=iOWJ0DuqnneqxKP_
