@@ -4,8 +4,7 @@
 ## Array
 ## string
 ## hashmap
-## sliding window
-## pandas
+## sliding windows 
 
 |  |
 | ------- |
