@@ -12,7 +12,7 @@
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/sahanasenthilrajan/leetcode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 🎯 LeetCode #3512: Make Array Sum Divisible by K
 
-Mathematical insight beats complex logic - A remainder-based solution in O(n) time.
+
 
 
 📌 Problem
