@@ -3,8 +3,8 @@
 # LeetCode topics
 ## Array
 ## string
-## hashmapg window
-## slidin
+## hashmap
+## sliding window 
 
 
 |  |
