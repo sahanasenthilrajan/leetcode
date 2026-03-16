@@ -35,18 +35,6 @@ javaclass Solution {
 }
 ```
 
-
-## 🐛 Common Mistakes Fixed
-
-| ❌ Wrong | ✅ Correct |
-|---------|----------|
-| `i <= nums.length` | `i < nums.length` |
-| `sum += i` | `sum += nums[i]` |
-| `int sum` | `long sum` |
-
----
-
-## 🧪 Test Cases
 ```
 [1,2,3,4], k=5 → 0 (sum=10, already divisible)
 [3,7,9], k=6   → 1 (sum=19, need 1 operation)
