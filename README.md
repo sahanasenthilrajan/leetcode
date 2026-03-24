@@ -7,8 +7,7 @@
 ## sliding window 
 
 
-|  |
-| ------- |
+
 | [0001-two-sum](https://github.com/sahanasenthilrajan/leetcode/tree/master/0001-two-sum) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/sahanasenthilrajan/leetcode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 🎯 LeetCode #3512: Make Array Sum Divisible by K
